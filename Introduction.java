@@ -1,4 +1,4 @@
-Class Introduction
+class Introduction
 {
   public static void main(String args[])
   {
