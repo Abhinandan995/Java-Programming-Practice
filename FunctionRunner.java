@@ -8,7 +8,7 @@ class FunctionRunner
    }
    public static void checking(List <Integer> numbers)
    {
-    numbers.Stream.filter(elements -> elements%2 == 1).foreach(elements -> System.out.println(elements));\\ for odd numbers
+    numbers.Stream().filter(elements -> elements%2 == 1).foreach(elements -> System.out.println(elements));\\ for odd numbers
     \\ for even the syntax will be: -  element -> elements%2 == 0.
    }
   }
